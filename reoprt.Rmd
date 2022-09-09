@@ -559,7 +559,7 @@ In our case , the dashboard uses library shinyauthr it uses shiny. It's a librar
 \
 
 ```{r makjjifggdn_deploginy,echo=FALSE, fig.cap="Administration code in the server , Source: BI Team Collaboration " , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/pic_intren/Code _ligin.png")
+  knitr::include_graphics("pic_intren/Code _ligin.png")
 ```
 
 ```{r makjjin_,echo=FALSE, fig.cap="Login Page in the Front-end , Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
