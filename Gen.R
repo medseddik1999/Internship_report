@@ -1,4 +1,4 @@
-install.packages("pdftools")
+install.packages('pdftools', repos = "http://cran.us.r-project.org")
 library(pdftools) 
 
 rmarkdown::render("reoprt.Rmd",
