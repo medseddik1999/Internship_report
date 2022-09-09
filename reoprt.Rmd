@@ -35,7 +35,7 @@ This internship report covers a business model based on the concept of an ecosys
 In our case, the model is based on the digitization of public infrastructure to make the sharing of these facilities efficient and collaborative between the public and residents by creating a sustainable ecosystem. The digitization of public infrastructure and facilities is absolutely linked to the concept of smart city. **Didem et al. 2022**[@Didem2022] explain that this type of digitization is defined by the term digital twin. Digital twins is the term used when a physical object is virtualized and represented on a digital system by a twin that shares its information e.g. Facebook profile is a digital twin of physical persons. However, this term is first used by Michael Grieves in 2003 as **Didem et al. 2022**[@Didem2022] point out in their introduction. digital twins are the tool to monitor and collect massive data on the state of physical objects **(HAO ZHANG and al. 2017)**[@HAOZHANGandal2017] in our case are sports facilities in Poland and the rate of their use. So digitization of these facilities allows to collect of economic and social data about sports life in Poland in order to develop digital solutions that will help the firm to grow and also public authorities to understand the needs of the locals in terms of infrastructure and maintenance.
 
 ```{r twin, echo=FALSE, fig.cap="BS ecosystem Model , Source: HAO ZHANG and al. 2017 ", out.width = '60%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/twins.png") 
+  knitr::include_graphics("pic_intren/twins.png") 
 
 ```
 
@@ -58,7 +58,7 @@ The company has developed a web and telephone application (presented in the appe
 BallSquad does not see itself as a service company but as an ecosystem in which it creates links between entities that are providers and users of sports facilities.However, the relationships with suppliers who manage facilities such as hygiene and maintenance are difficult because they do not take the risk of delivering the facilities because of the lack of users's discipline that can have an impact on the condition of the facility, especially as there is no contracts to control their a bad behaviors. For the time being, BallSquad prefers to negotiate with higher authorities in the city, such as the local community, to have the facilities in its booking system.
 
 ```{r pressure, echo=FALSE, fig.cap="BallSquad ecosystem Model, Source: BallSquad CEO", out.width = '60%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/F1.png") 
+  knitr::include_graphics("pic_intren/F1.png") 
 
 ```
 
@@ -77,7 +77,7 @@ So, this first section summarizes the current business model of the company but 
 BallSquad is a company with a specific culture, where every person on the team have its  importance from the CEO to the intern. Also, the average age in the start-up is no more than thirty. Furthermore, BallSquad has great faith in the talent of young people where the company's culture is based on freedom and flexibility of work where the employee is free to work remotely and choice the methodology that  can make them feel comfortable with their tasks.
 
 ```{r team, echo=FALSE, fig.cap="BallSquad teams Organization , Source: Author ", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/BSTeam.png") 
+  knitr::include_graphics("pic_intren/BSTeam.png") 
 
 ```
 
@@ -134,7 +134,7 @@ The data scientist uses this API to create automation for the dashboard as well 
 \
 
 ```{r BS API, echo=FALSE, fig.cap="API Documentation Page , Source: BallSquas Admin Panel", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/adminpage.png")  
+  knitr::include_graphics("pic_intren/adminpage.png")  
 
 ```
 
@@ -155,7 +155,7 @@ As a data scientist, I worked to write Python code which optimized the uses of t
 \
 
 ```{r TOOLSP, echo=FALSE, fig.cap="Tools Used : Neo4j , Shiny , ETl , Source: Author", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/Toolsused.png")  
+  knitr::include_graphics("pic_intren/Toolsused.png")  
 
 ```
 
@@ -185,7 +185,7 @@ A migration strategy can solve the big data storage moving problem. In the end, 
 \
 
 ```{r project_archi, echo=FALSE, fig.cap="The project architecture , Source: BI Team Collaboration", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/Archi_p.png")
+  knitr::include_graphics("pic_intren/Archi_p.png")
 
 ```
 
@@ -204,7 +204,7 @@ Network analysis can be applied to different fields in the company structure **(
 ### Overview of Network Analysis Methods & Implementation Fields
 
 ```{r evo_network, echo=FALSE, fig.cap="The Evolution of Network Analysis research , Source: Adhe Rizky and al., 2022", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/evo_rescher.png") 
+  knitr::include_graphics("pic_intren/evo_rescher.png") 
 ```
 
 Network analysis is increasingly useful for different fields of economics, computer science, tourism, psychology and management **(Adhe Rizky and al., 2022)**[@Adhe2022]. This tool makes decisions more effective with less risk, moreover, the number of publications that deal with network analysis was 2158 publications in 2020. we can conceive the trends of publication in three main periods first part from 2001 to 2009 this period the number of publications increased but the number of citations per article decreased more significantly than the increase of publications where the network analysis was a trend between a community and it was not a general trend as it is shown in figure 7. 
@@ -249,7 +249,7 @@ Although there is no single definition of community, the most distinguishing fea
 Networks exist not only in the field of technology, but also in people's daily lives, and people go about their daily lives while connected to a variety of networks. Communities are features of many networks in which nodes within a community are highly connected, and where a given network may have more than one community. Multiple nodes in the community may be a conflict. Consider social media platforms, such as Facebook, and the people you interact with on a daily basis. You may have a close relationship with your family, colleagues, or circle of friends. The social networks of people form a complex community. To distinguish and better understand these communities, various methods can be used. The Community detection method is one of them. 
 
 ```{r evo_network_com, echo=FALSE, fig.cap="Community Detection in Graphs , Source: BI Team Collaboration", out.width = '45%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/comm_dec.png")
+  knitr::include_graphics("pic_intren/comm_dec.png")
 ```
 
 Discovering the communities within different networks can be an important step when analyzing them. Community detection techniques can help social media algorithms find people who share common interests and keep them connected. As said before, community detection in machine learning can be used to detect groups with similar characteristics and to distinguish groups for a variety of reasons. This method can be used to investigate manipulative groups in a social network or the stock market. In the field of community identification, numerous techniques have been proposed. The following sections describe four popular community detection algorithms.(**Giulia Contu, Luca Frigau & Maurizio Romano, 2019)**[@Giulia2019]
@@ -265,7 +265,7 @@ The basic algorithm of recommendations is a filtering algorithm that is based on
 The algorithm deployed to develop recommendation systems is similar algorithms that capture similarities between users at the same time similarity between products in order to offer the same product to similar users and provide similar products to users where the system predicts the user steps and behaviors facing similar products. The k-neighbors algorithm is one of the references for RS "The k Nearest Neighbors (KNN) recommendation algorithm is the reference algorithm for the collaborative filtering recommendation Process."**(J. Bobadilla and 2013)**[@bobadilla2013recommender]. Where this algorithm is simple for implementation and manipulation where we define the number of neighbors to take similarity into account in order to define top n-recommendations. Finally, the recommendation systems are improving in terms of flexibility and accuracy with the arrival of digitalisation and smart city concepts at the same time with a deep learning approach. **(Yuhe and al 2022)**[@Guangfei] where Yuhe and al make points on the new deep learning approach based on location data such as examples represented in the framework. (Figure 9)
 
 ```{r evo_network_frame, echo=FALSE, fig.cap=" Recommendation System application on LBSN Framework, Source: Yuhe Zhu, Guang Fei Yang, al 2022", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/LSBN.png")
+  knitr::include_graphics("pic_intren/LSBN.png")
 ```
 
 ### Network effects and product standardization
@@ -303,7 +303,7 @@ Finally, the transaction data will be replaced by an edge list data set that sum
  
 
 ```{r esql_nosql, echo=FALSE, fig.cap="Relational database versus graph database, Source: BI Team Collaboration ", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/migration.png")
+  knitr::include_graphics("pic_intren/migration.png")
 ```
 
 The graph database structure is based on nodes and edge information as it's repeated on Figure 10 where blue nodes are users and reds are court entities. And the third component is the relationship between the user and courts that he uses as a part of the graph database represented in Figure 10. 
@@ -339,7 +339,7 @@ Moreover, there are commercial and transaction datasets. They collect, respectiv
 \
 
 ```{r evo_sql_strctur, echo=FALSE, fig.cap="Schematic representation of the portion of the SQL database to be migrated , Source: Author", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/SQL_structure.png")
+  knitr::include_graphics("pic_intren/SQL_structure.png")
 ```
 
 \newpage
@@ -393,7 +393,7 @@ The first step in this application is to communicate with all scripts and librar
 \
 
 ```{r tool_migrate , echo=FALSE, fig.cap="Migration tools importing on Python , Source: BI Team Collaboration", out.width = '80%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/tools.png")
+  knitr::include_graphics("pic_intren/tools.png")
 ```
 
 **Defining the automation**
@@ -401,7 +401,7 @@ The first step in this application is to communicate with all scripts and librar
 In this step we define the migration automation for each node and for each relationship as we mentioned on task two. This is presented in the table above. The only change is that we use APIs to query the data from relational databases. In our application project we did not use Pyodbc to connect to the SQL data set, otherwise we would have used APIs to request data. This automation will then be repeated for each entity and relationship added to the Neo4j system.
 
 ```{r app_migrate ,echo=FALSE, fig.cap="The automation structure , Source: BI Team Collaboration", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/aut_srt.png")
+  knitr::include_graphics("pic_intren/aut_srt.png")
 ```
 
 **Nodes migration automation**
@@ -409,7 +409,7 @@ In this step we define the migration automation for each node and for each relat
 As mentioned before, for each node we query the data from the SQL database by APIs. The data acquired will be transformed to the nodes list by a function from the cleaning script. Finally, the output will be communicated to the migration function as shown in the script app. It should be noticed that the size of some entities in the system could be acquired in just one query, but we will store it in parts.
 
 ```{r nodes_migrate ,echo=FALSE, fig.cap="Script Nodes migration automatisation , Source: BI Team Collaboration", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/nodesAuto.png") 
+  knitr::include_graphics("pic_intren/nodesAuto.png") 
 ```
 
 **Business information migration automation**
@@ -417,7 +417,7 @@ As mentioned before, for each node we query the data from the SQL database by AP
 When the migration of all the node entities is done, the step is to equip these nodes with business information such as number of bookings, gross amount, number of bookings canceled. This kind of information exists in the transaction data set for what concerns users, and in the commercial data set for courts. After having imported these data sets, we summarize the business information by users or by courts. For this task we use the functions in the BI migration script. Then the migration function takes the outputs of the transformation and stores them by matching on the nodes that already exist.
 
 ```{r BI_migrate ,echo=FALSE, fig.cap="Script business information migration automatisation,Source: BI Team Collaboration", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/BIauto.png")
+  knitr::include_graphics("pic_intren/BIauto.png")
 ```
 
 **Edges Migration**
@@ -425,7 +425,7 @@ When the migration of all the node entities is done, the step is to equip these 
 This step is the last one, and the migration of the relationships between the nodes is the subject of this part of the application. The script in this part imports the data for each type of relationship before selecting the IDs of entities concerned by the relationships. Then, this automation requests for data and, once the data is obtained, the script creates the edges list and finally stores it on Neo4j.
 
 ```{r egg_migrate ,echo=FALSE, fig.cap="Script edges migration automatisation ,Source: BI Team Collaboration", out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/edgesAuto.png")
+  knitr::include_graphics("pic_intren/edgesAuto.png")
 ```
 
 **Build the main automation**
@@ -433,7 +433,7 @@ This step is the last one, and the migration of the relationships between the no
 After building the automation for each node and edge, the final step of the application is to build a main automation which includes all the previous ones. We can as well define the steps of migration using this main automation. The first step is to migrate nodes. To do so, we put the respective automation as the first instruction, and BI migration as the second. Finally, we migrate the relationships between entities.
 
 ```{r main_migrate ,echo=FALSE, fig.cap="Script main automatisation ,Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/main_intren.png")
+  knitr::include_graphics("pic_intren/main_intren.png")
 ```
 
 **The application Deploying**
@@ -441,11 +441,11 @@ After building the automation for each node and edge, the final step of the appl
 For the deployment of the migration app, we follow the path of the file on the terminal. Once the shell is in the app file, we activate the environment Anaconda which is used in the development of the application. Finally, we run the script of "App_migration.py". The output is represented in the following figure .
 
 ```{r main_shell,echo=FALSE, fig.cap="The Shell in The Project File ,Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/shell.png")
+  knitr::include_graphics("pic_intren/shell.png")
 ```
 
 ```{r main_deploy,echo=FALSE, fig.cap="Script main automatisation ,Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/deploy.png")
+  knitr::include_graphics("pic_intren/deploy.png")
 ```
 
 **The level** of this steps is easy because all the tools used (presented in annex), were programmed by my colleagues and myself but some scripts of migration tools was with meduim and advanced level . So the steps prseted in this report are just a place the functions in accordance with the application's design.
@@ -497,11 +497,11 @@ Post-migration tests (test for data **legacy**):
 -   test for business information.
 
 ```{r main_deployzz,echo=FALSE, fig.cap="Pre-migration tests passed ,Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/pre_mig.png")
+  knitr::include_graphics("pic_intren/pre_mig.png")
 ```
 
 ```{r main_deploy2,echo=FALSE, fig.cap="Post-migration tests passed ,Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/post_mig.png")
+  knitr::include_graphics("pic_intren/post_mig.png")
 ```
 
 the post migration tests on ETL applications stays an **advanced task** because we need to write tests which compare data stored in deffrents structure and challenges stay on the optimization of the computation performance of the test and also sometimes the data stored doesn't have a same type or encoding bytes so we have to generalize types and encodes before comparing and testing.  Which make testing an advanced level that why we was two worker on this part where I makes a generalization of  data type on the data imported from Neo4j and Apis Before My coworker perform post migration tests. Otherwise, the pre--migration and migration tests were affordable by my colleague without any assistance or help.
@@ -537,15 +537,15 @@ Since known R drivers like RNeo4j and neo4r -- that allow talking from R to Neo4
 As said, some changes are needed. We use the package neo4r and edit it as follows to make it compatible with version 4 of the Neo4j Server, and in particular the 4.1.11 one. We hence get the new package that we are going to use to connect R to Neo4j and we will call it "neo4r edition".
 
 ```{r maijk_deploy,echo=FALSE, fig.cap="Frist change in neo4r package ,Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/connection.png")
+  knitr::include_graphics("pic_intren/connection.png")
 ```
 
 ```{r mahjkn_deploy,echo=FALSE, fig.cap="Seconde change in neo4r package , Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/C1.png")
+  knitr::include_graphics("pic_intren/C1.png")
 ```
 
 ```{r makjjin_deploy,echo=FALSE, fig.cap="Connection Between Neo4j  and Rstudio , Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/C2.png")
+  knitr::include_graphics("pic_intren/C2.png")
 ```
 
 **Security and administration**
@@ -559,11 +559,11 @@ In our case , the dashboard uses library shinyauthr it uses shiny. It's a librar
 \
 
 ```{r makjjifggdn_deploginy,echo=FALSE, fig.cap="Administration code in the server , Source: BI Team Collaboration " , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/Code _ligin.png")
+  knitr::include_graphics("/pic_intren/Code _ligin.png")
 ```
 
 ```{r makjjin_,echo=FALSE, fig.cap="Login Page in the Front-end , Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/Loginpage.png")
+  knitr::include_graphics("pic_intren/Loginpage.png")
 ```
 
 **Data pipelines and filtering functions**
@@ -613,7 +613,7 @@ After the data migration and the development of the visualization framework, we 
 ### Miscalculation Map
 
 ```{r misca,echo=FALSE, fig.cap="Miscalculation Map, Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/misca.png")
+  knitr::include_graphics("pic_intren/misca.png")
 ```
 
 Miscalculation map is designed to visualize the calculation error between two databases. commercial which presents a summary of the business information about the transactions dataset. commercial is built by transforming another database which stores the transactions and the reservations. Ideally, the sales information available in the commercial database are identical to the information in the transaction database but in our case, there are miscalculations between the two databases and for this reason, we have developed this tool to identify the source of the miscalculations in the system in order to allow the developers to solve this problem in an efficient way. 
@@ -625,7 +625,7 @@ The limitation of this tool is that it does not present the transactions which c
 ### The BallSquad Booking Network
 
 ```{r netbo,echo=FALSE, fig.cap="BallSquad Booking Network , Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/netbo.png")
+  knitr::include_graphics("pic_intren/netbo.png")
 ```
 
 This part illustrates the reservation network within the system in a graph format where we can see the different user relationships that are structured by users that make bookings and courts that receive requests . The chart shows not only one dimension of use but several, such as the intensity of use, which indicates the number of bookings and on the other hand a time interval of the relationship, which shows the date of the first and last interaction between the user and the facility.   
@@ -635,7 +635,7 @@ However, this overview does not only present information about the usage relatio
 This output is a pure exploration product so it is not really operational in the sense that the customer success team cannot use it in an efficient way when interacting with customers. Hence, it is not dedicated to be a case specific tool. So it just illustrates a general view on the usage network in Ball Squad. This limitation will push our team to develop another tool based on our Neo4j database which will allow us to visualize all the information about the users and their behavior in order to improve our customer service.  So the project which is in development now is the customer success dashboard which we use Neo4dash to develop . where this dashboard does not need the front end development but just by running queries to Neo4j. The expected output of the new project is a dashboard with all information about users and their booking behaviors as represented on figure 28 
 
 ```{r CSD,echo=FALSE, fig.cap="Success Customer Dashbord , Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/cussucss.png")
+  knitr::include_graphics("pic_intren/cussucss.png")
 ```
 
 ### Geographical map of market penetration
@@ -643,7 +643,7 @@ This output is a pure exploration product so it is not really operational in the
 Finally, this visualization is very practical to measure and visualize market penetration. In fact, the tool is geographical and it is composed of two entities that are the installations in our system and the installations available in a given geographical place. So for the entities in the system, we import the data directly from Neo4j to set them up. but for the available installations that are out of the system, we got them by a small web scraping project presented in the annex.
 
 ```{r MPM,echo=FALSE, fig.cap="Map of market penetration ,Source: BI Team Collaboration" , out.width = '66%' ,fig.align='center'}
-  knitr::include_graphics("/Users/midou/Desktop/pic_intren/penmap.png")
+  knitr::include_graphics("pic_intren/penmap.png")
 ```
 
 \
